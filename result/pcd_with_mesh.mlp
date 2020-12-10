@@ -1,0 +1,42 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh label="0.txt" visible="0" filename="../car_pts/0.txt">
+   <MLMatrix44>
+-0.997206 -0.0747039 0 -0.260855 
+0.0747039 -0.997206 0 -0.21624 
+0 0 1 0.328233 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" pointSize="7" boxColor="234 234 234 255" wireWidth="1" pointColor="131 149 69 255" solidColor="192 192 192 255">000111000000000000000100000001001000001010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="car_091_ptcloud.txt" visible="0" filename="../use_data/scaled_data/car_091_ptcloud.txt">
+   <MLMatrix44>
+1 0 0 0.0250932 
+0 1 0 -0.214321 
+0 0 1 0.132849 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" pointSize="2" boxColor="234 234 234 255" wireWidth="1" pointColor="131 149 69 255" solidColor="192 192 192 255">000110000000000000000100000001001000001010100000000100111011110000101001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="car_091_mesh.ply" visible="0" filename="meshply/car_091_mesh.ply">
+   <MLMatrix44>
+0.442265 0.026842 -0.0204241 0.0569367 
+-0.0276717 0.442324 -0.0178889 0.334718 
+0.0192851 0.0191114 0.442717 -0.318856 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" pointSize="3" boxColor="234 234 234 255" wireWidth="1" pointColor="131 149 69 255" solidColor="192 192 192 255">100001000000000000000100000001011000001010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="car0_rgb.txt" visible="1" filename="../rgb/car0_rgb.txt">
+   <MLMatrix44>
+-1.15259 -0.054948 -0.060906 -0.324243 
+0.056891 -1.15354 -0.035908 0.0105164 
+-0.0590951 -0.0388161 1.15334 0.0247731 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" pointSize="11" boxColor="234 234 234 255" wireWidth="1" pointColor="131 149 69 255" solidColor="192 192 192 255">000110010000000000000100000001000000001010100000000100111010110000101101</RenderingOption>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>
