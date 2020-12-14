@@ -26,6 +26,14 @@ After we trained the PointCNN model by using our dataset combined with the Shape
 * [DGCNN (2019)](https://github.com/WangYueFt/dgcnn) The DGCNN (Dynamic Graph CNN) has the best accuracy on car part segmentation among all of the models that we have found. This paper published in 2019 was improved based on the PointNet. Instead of working on individual points like PointNet in which it neglects the geometric relationship among points, the DGCNN has proposed a simple operation called Edge Conv in which it captured local geometric structure and maintaining permutation invariance. After we trained the DGCNN model by using our dataset combined with the ShapeNet car dataset, this is the training accuracy after we plotted in a line graph:
 ![DGCNN](https://github.com/fdshan/cv_project/blob/main/result/Accuracy/dgcnn.PNG)
 
+## Data
+
+all the car models we collected have been saved in this link:
+
+https://drive.google.com/drive/folders/1OM-Pfv3_X94To5UIsV55dJ30WQKBGH0G?usp=sharing
+
+they have been processed the into the .h5 format and it is called "my_dataset_test.h5" in the repository.
+
 Model | Accuracy |
 --- | --- |
 PointNet | 80.3% |
